@@ -1,17 +1,17 @@
 class Motor {
     private int potencia;
     private String tipo;
-
+    
     public Motor(int potencia, String tipo) {
         this.potencia = potencia;
         this.tipo = tipo;
     }
     public void ligar(){
-        System.out.println("Motor movido a " + tipo + " ligado com potência de " + potencia + "CV.");
+        System.out.println("Motor " + tipo + "ligado com potência de" + potencia + "CV.");
     }
     
     public void desligar(){
-        System.out.println("O Motor movido à " + tipo + " está desligado.");
+        System.out.println("Motor " + tipo + "desligado.");
     }
     
     public int getPotencia(){
